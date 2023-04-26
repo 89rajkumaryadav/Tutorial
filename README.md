@@ -9,3 +9,5 @@
 6. async, await, actor, main actor
 7. async let
 8. Task group
+9. Task, Unstructured Task
+10. Detached Task
