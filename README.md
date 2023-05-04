@@ -25,5 +25,7 @@ https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-con
 4) Explore structured concurrency in Swift (WWDC 2021)
 https://developer.apple.com/videos/play/wwdc2021/10134/
 
+5) https://medium.com/swiftcairo/avoiding-race-conditions-in-swift-9ccef0ec0b26
+
 
 //-----------------------------------------------------------------------------------------------------------------------
