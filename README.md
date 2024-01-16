@@ -29,3 +29,70 @@ https://developer.apple.com/videos/play/wwdc2021/10134/
 
 
 //-----------------------------------------------------------------------------------------------------------------------
+
+
+
+# //   **************** Views and Modifiers  ************************************************
+//Why does SwiftUI use “some View” for its view type? – Views and Modifiers SwiftUI Tutorial
+// https://www.hackingwithswift.com/books/ios-swiftui
+// https://www.youtube.com/watch?v=kv5JqKQwL0c
+// 
+
+
+# //modifier:
+// https://cocoacasts.com/swiftui-fundamentals-customizing-views-with-modifiers
+// https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers
+// https://www.youtube.com/watch?v=XdfVPPfnZZU
+// https://www.hackingwithswift.com/books/ios-swiftui/why-modifier-order-matters
+
+# //Conditional modifiers
+// https://www.hackingwithswift.com/books/ios-swiftui/conditional-modifiers
+
+# //Environment modifiers
+// https://www.hackingwithswift.com/books/ios-swiftui/environment-modifiers
+
+
+# //ViewBuilder
+// Understanding SwiftUI ViewBuilders
+// https://www.youtube.com/watch?v=IbxBRzTBeC0
+// https://www.youtube.com/watch?v=nokF9nKoXpQ
+// https://www.youtube.com/watch?v=pXmBRK1BjLw
+
+
+
+# SwiftUI Protocol
+//ObservableObject
+ Environment object
+ ObservedObject
+ State object
+ Hasable
+ Equatable
+ 
+ 
+ 
+ 
+# //SWIFTUI
+ Background
+ Overlay
+ Label
+ViewBuilder
+
+
+ 
+ 
+ 
+ 
+# 1.  The difference between @StateObject, @EnvironmentObject, and @ObservedObject in SwiftUI
+
+*/
+
+
+
+
+# //????
+//enum Category: String, CaseIterable, Codable
+//    .toolbar {
+// .sheet(
+//.modifier(
+//.onReceive(
+//.animation(
