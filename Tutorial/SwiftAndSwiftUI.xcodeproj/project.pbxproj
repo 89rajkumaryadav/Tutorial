@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,12 +14,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B726052DB8EC410085D554 /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B726052DB8EC410085D554 /* SwiftAndSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAndSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B726082DB8EC410085D554 /* TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialApp.swift; sourceTree = "<group>"; };
 		A4B7260A2DB8EC410085D554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4B7260C2DB8EC430085D554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B7260F2DB8EC430085D554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A408FC0F2E1520310075ABD5 /* SwiftProgramming */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftProgramming; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A4B726022DB8EC410085D554 /* Frameworks */ = {
@@ -35,6 +39,7 @@
 		A4B725FC2DB8EC410085D554 = {
 			isa = PBXGroup;
 			children = (
+				A408FC0F2E1520310075ABD5 /* SwiftProgramming */,
 				A4B726072DB8EC410085D554 /* Tutorial */,
 				A4B726062DB8EC410085D554 /* Products */,
 			);
@@ -43,7 +48,7 @@
 		A4B726062DB8EC410085D554 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4B726052DB8EC410085D554 /* Tutorial.app */,
+				A4B726052DB8EC410085D554 /* SwiftAndSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4B726042DB8EC410085D554 /* Tutorial */ = {
+		A4B726042DB8EC410085D554 /* SwiftAndSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4B726132DB8EC430085D554 /* Build configuration list for PBXNativeTarget "Tutorial" */;
+			buildConfigurationList = A4B726132DB8EC430085D554 /* Build configuration list for PBXNativeTarget "SwiftAndSwiftUI" */;
 			buildPhases = (
 				A4B726012DB8EC410085D554 /* Sources */,
 				A4B726022DB8EC410085D554 /* Frameworks */,
@@ -82,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = Tutorial;
+			name = SwiftAndSwiftUI;
 			productName = Tutorial;
-			productReference = A4B726052DB8EC410085D554 /* Tutorial.app */;
+			productReference = A4B726052DB8EC410085D554 /* SwiftAndSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4B726002DB8EC410085D554 /* Build configuration list for PBXProject "Tutorial" */;
+			buildConfigurationList = A4B726002DB8EC410085D554 /* Build configuration list for PBXProject "SwiftAndSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4B726042DB8EC410085D554 /* Tutorial */,
+				A4B726042DB8EC410085D554 /* SwiftAndSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4B726002DB8EC410085D554 /* Build configuration list for PBXProject "Tutorial" */ = {
+		A4B726002DB8EC410085D554 /* Build configuration list for PBXProject "SwiftAndSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B726112DB8EC430085D554 /* Debug */,
@@ -332,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4B726132DB8EC430085D554 /* Build configuration list for PBXNativeTarget "Tutorial" */ = {
+		A4B726132DB8EC430085D554 /* Build configuration list for PBXNativeTarget "SwiftAndSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B726142DB8EC430085D554 /* Debug */,
